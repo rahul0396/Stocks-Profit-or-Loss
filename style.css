@@ -1,0 +1,51 @@
+label{
+    display: block;
+    display: block;
+      text-align: center;
+      margin: auto;
+      margin-top: 1rem;
+}
+
+.input{
+    text-align: center;
+}
+input{
+    padding: 0.5rem;
+}
+#btn{
+    display: block;
+    margin-top: 1rem;
+}
+body{
+    background: url(./bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+:root{
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+}
+
+#btn{
+    display: block;
+    margin:auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    font-size: large;
+    background-color:rgb(255, 255, 255) ;
+}
+#output{ 
+    font-size: x-large;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 1rem;
+    /* border-color:rgb(43, 250, 1);  */
+    border-width: 0.2rem;
+    border-style: solid;
+   max-width:fit-content;
+   height: 60px;
+}
