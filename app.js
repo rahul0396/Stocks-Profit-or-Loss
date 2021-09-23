@@ -9,7 +9,7 @@ const output= document.querySelector("#output");
 function calculate(ip,quan,curr)
 {
     if(curr>ip){
-        const result= (curr-ip);
+        const result= (curr-ip)*quan;
         let  resultbypercent=((curr-ip)*100)/curr;
         resultbypercent= resultbypercent.toFixed(2);
        
@@ -20,7 +20,7 @@ function calculate(ip,quan,curr)
     }   
     else if (ip>curr)
     {
-        const result= (ip-curr);
+        const result= (ip-curr)*quan;
         let resultbypercent=((ip-curr)*100)/curr;
         resultbypercent= resultbypercent.toFixed(2);
        
